@@ -35,29 +35,25 @@ Every playbook answers two questions:
 
 ```text
 org-chart-ml-vibes/
-├── executives/
-│   ├── ceo.md
-│   ├── cto.md
-│   ├── coo.md
-│   ├── cfo.md
-│   ├── cmo.md
-│   ├── cpo.md
-│   ├── cro.md
-│   ├── chro.md
-│   ├── gc.md
-│   └── ciso.md
 └── departments/
+    ├── executive-office/
+    │   └── ceo.md
     ├── product/
+    │   ├── cpo.md
     │   ├── product-management.md
     │   └── design-research.md
     ├── technology/
+    │   ├── cto.md
     │   ├── engineering/
     │   │   └── engineering.md
     │   ├── data-ai/
     │   │   └── data-ai.md
     │   └── platform-security/
+    │       ├── ciso.md
     │       └── platform-security.md
     ├── go-to-market/
+    │   ├── cmo.md
+    │   ├── cro.md
     │   ├── sales/
     │   │   └── sales.md
     │   ├── marketing/
@@ -70,15 +66,21 @@ org-chart-ml-vibes/
     │   ├── customer-success.md
     │   └── customer-support.md
     ├── business-operations/
+    │   ├── cfo.md
+    │   ├── coo.md
     │   ├── finance-accounting.md
     │   └── business-operations.md
     ├── people/
+    │   ├── chro.md
     │   └── people-talent.md
     └── legal-risk/
+        ├── general-counsel.md
         └── legal-compliance.md
 ```
 
-The CEO is accountable for company strategy and final prioritization. The
-functional executives own their domains and should resolve decisions at the
-lowest responsible level. The board, investors, and external specialists
-provide governance and expertise but do not replace operating ownership.
+Every executive now sits inside the department they lead. The CEO runs the
+Executive Office and is accountable for company strategy and final
+prioritization. Functional executives own their domains and should resolve
+decisions at the lowest responsible level. The board, investors, and external
+specialists provide governance and expertise but do not replace operating
+ownership.
