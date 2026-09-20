@@ -1,0 +1,23 @@
+# Operating-system files
+.DS_Store
+Thumbs.db
+
+# Editor and IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Temporary and generated files
+*.tmp
+*.temp
+*.bak
+*.log
+
+# Python tooling, if used for future operating-model scripts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
